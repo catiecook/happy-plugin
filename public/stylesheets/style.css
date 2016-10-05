@@ -12,3 +12,14 @@ a {
 .space {
     margin-right: 5%;
 }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 10%;
+}
+
+.fa-github {
+  font-size: 3rem;
+  padding-left: 1rem;
+}
