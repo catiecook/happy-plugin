@@ -3,14 +3,14 @@
 <p>This is a crowd sourced project to collect positive quotes, phrases and thoughts. <br> Enter something you would want to read when you're feeling down or uninspired.</p>
 
 <!-- The above form looks like this -->
-<form>
-  <label for="exampleMessage">Happy:</label>
-  <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+<form action='/positives' method='post'>
+  <label for="phrase">Happy:</label>
+  <textarea class="u-full-width" placeholder=":-)" id="phrase" name='phrase'></textarea>
 
   <div class="row">
     <div class="six columns">
       <label for="exampleEmailInput">Source/author: </label>
-      <input class="u-full-width" type="text" placeholder="Who said this..." id="source">
+      <input class="u-full-width" type="text" placeholder="Who said this..." id="source" name="source">
     </div>
   </div>
 
