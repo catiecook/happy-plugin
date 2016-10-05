@@ -8,7 +8,7 @@ var dotenv = require('dotenv').config();
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
-var knex = require('./database/knex.js')
+var knex = require('./db/knex.js')
 
 var app = express();
 
