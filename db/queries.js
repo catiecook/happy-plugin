@@ -6,7 +6,13 @@ function addHappy(phrase, author) {
     'author_name':author
   });
 }
+function getAll() {
+  return knex('positives')
+}
+
+
 
 module.exports = {
-  addHappy: addHappy
+  addHappy: addHappy,
+  getAll: getAll
 }
