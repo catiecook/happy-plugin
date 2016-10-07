@@ -18,7 +18,7 @@ router.post('/positives', function(req, res, next){
 router.get('/getdata', function(req, res, next){
   query.getAll()
   .then(function(data) {
-    res.send(data)
+    res.json(data)
   })
 });
 
