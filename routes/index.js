@@ -18,6 +18,7 @@ router.post('/positives', function(req, res, next){
 router.get('/getdata', function(req, res, next){
   query.getAll()
   .then(function(data) {
+    console.log(data[0]);
     res.json(data)
   })
 });
